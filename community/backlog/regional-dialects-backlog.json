@@ -239,7 +239,7 @@
     "note": "Used for prohibition/failure. (Set 2)",
     "id": 24,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "〜へん",
@@ -259,7 +259,7 @@
     "note": "Used for severe winter cold. (Set 2)",
     "id": 26,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "なまら",
@@ -269,7 +269,7 @@
     "note": "Hokkaido intensifier. (Set 2)",
     "id": 27,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "したっけ",
@@ -279,7 +279,7 @@
     "note": "Transition/goodbye phrase. (Set 2)",
     "id": 28,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "〜ばい",
@@ -288,7 +288,7 @@
     "region": "Fukuoka",
     "note": "Assertive friendly ending. (Set 2)",
     "id": 29,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
