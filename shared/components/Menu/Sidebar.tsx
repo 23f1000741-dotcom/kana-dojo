@@ -23,6 +23,7 @@ import { useInputPreferences } from '@/features/Preferences';
 import { removeLocaleFromPath } from '@/shared/lib/pathUtils';
 import type { Experiment } from '@/shared/data/experiments';
 import { ActionButton } from '@/shared/components/ui/ActionButton';
+import AuroraText from '@/shared/components/ui/magicui/AuroraText';
 
 const SIDEBAR_SECTION_STORAGE_PREFIX = 'sidebar-collapsible-';
 const SIDEBAR_DESKTOP_COLLAPSED_STORAGE_KEY = 'sidebar-desktop-collapsed';
@@ -580,8 +581,8 @@ const Sidebar = () => {
         transition={{ duration: 0.3, ease: 'easeInOut' }}
       >
         <h1 className='flex items-center gap-1.5 pl-4 text-3xl max-3xl:flex-col max-3xl:items-start'>
-          <span className='font-bold'>KanaDojo</span>
-          <span className='font-normal text-(--secondary-color)'>かな道場️</span>
+          <AuroraText className='font-bold'>KanaDojo</AuroraText>
+          <AuroraText className='font-normal'>かな道場️</AuroraText>
         </h1>
       </motion.div>
 
